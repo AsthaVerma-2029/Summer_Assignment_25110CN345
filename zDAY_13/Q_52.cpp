@@ -7,7 +7,7 @@ int main(){
     unsigned int n;
     cout<<"Enter the number of elements : ";
     cin>>n;
-    if(n=0){
+    if(n==0){
         cout<<"Elements cannot be ZERO";
         return 0;
     }
