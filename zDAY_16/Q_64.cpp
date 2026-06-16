@@ -27,11 +27,11 @@ int main(){
             }
         }
     }
-    cout<<"The sorted array is [";
-    for(int i=0;i<n;i++){
-        cout<<" "<<num[i];
-    }
-    cout<<" ]"<<endl;
+    // cout<<"The sorted array is [";
+    // for(int i=0;i<n;i++){
+    //     cout<<" "<<num[i];
+    // }
+    // cout<<" ]"<<endl;
 
     int counter=0;
     for(int i=0;i<n;i++){
