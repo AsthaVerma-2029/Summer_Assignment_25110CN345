@@ -3,9 +3,6 @@
 #include <iostream>
 using namespace std;
 
-#include <iostream>
-using namespace std;
-
 int main(){
     int n1,n2;
     cout<<"Enter the Size of array 1 : ";
