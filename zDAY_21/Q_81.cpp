@@ -1,15 +1,16 @@
-//WRITE A PROGRAM TO FIND STRING LEN USING strlen()
+// WRITE A PROGRAM TO FIND STRING LEN USING strlen()
 
 #include <iostream>
-#include<cstring>
+#include <cstring>
 using namespace std;
 
-int main(){
+int main()
+{
     char s[200];
-    cout<<"Enter the value of the string ";
-    cin>>s;
-    
-    cout<<"The length of string is "<<strlen(s);
-    
-return 0;
+    cout << "Enter the value of the string ";
+    cin >> s;
+
+    cout << "The length of string is " << strlen(s);
+
+    return 0;
 }
