@@ -1,6 +1,4 @@
-
-
-
+// WRITE A PROGRAM TO CREATE TICKET BOOKING SYSTEM
 
 
 #include <iostream>
