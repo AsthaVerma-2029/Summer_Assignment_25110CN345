@@ -14,8 +14,8 @@ struct employee {
 employee employees[limit_emp];
 int count = 0;
 
-void add_std();
-void add_std() {
+void add_emp();
+void add_emp() {
     if (count >= limit_emp) {
         cout << "System full! Cannot add more employees.\n";
         return;
@@ -50,8 +50,8 @@ void add_std() {
 
     cout << "employee added successfully!\n";
 }
-void desplay_emp();
-void desplay_emp() {
+void display_emp();
+void display_emp() {
     if (count == 0) {
         cout << "\nNo employee records found.\n";
         return;
@@ -65,8 +65,8 @@ void desplay_emp() {
              << employees[i].salary << "\n";
     }
 }
-void search_std();
-void search_std() {
+void search_emp();
+void search_emp() {
     if (count == 0) {
         cout << "\nNo employee records found.\n";
         return;
@@ -93,8 +93,8 @@ void search_std() {
     }
     cout << "employee with employee ID " << search_id << " not found.\n";
 }
-void search_emp();
-void search_emp() {
+void delete_emp();
+void delete_emp() {
     if (count == 0) {
         cout << "\nNo employee records found to delete.\n";
         return;
@@ -149,16 +149,16 @@ int main(){
         }
         switch (choice) {
             case 1:
-                add_std();
+                add_emp();
                 break;
             case 2:
-                desplay_emp();
+                display_emp();
                 break;
             case 3:
-                search_std();
+                search_emp();
                 break;
             case 4:
-                search_emp();
+                delete_emp();
                 break;
             case 5:
                 cout << "Exiting program.....\n";
